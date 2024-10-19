@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <form name="frmname" id="frmcadastro" method="post" enctype="multipart/form-data">
+            <label for="Nome">Nome:</label>
+            <input type="text" name="txtNome" id="txtNome" required>
+            <br>
+            <label for="Email">Email:</label>
+            <input type="text" name="txtEmail" id="txtEmail" min="10" max="30" required>
+            <br>
+            <label for="senha">Senha:</label>
+            <input type="password" name="pw" id="pw" min="8" max="30" required>
+            <br>
+            <input type="submit" id="enviar">
+        </form>
+    </div>
+</body>
+</html>
