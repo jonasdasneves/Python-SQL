@@ -7,17 +7,17 @@
 </head>
 <body>
     <div>
-        <form name="frmname" id="frmcadastro" method="post" enctype="multipart/form-data">
+        <form name="frmname" id="frmcadastro" action="/cadastro" method="POST" enctype="multipart/form-data">
             <label for="Nome">Nome:</label>
             <input type="text" name="txtNome" id="txtNome" required>
             <br>
             <label for="Email">Email:</label>
-            <input type="text" name="txtEmail" id="txtEmail" min="10" max="30" required>
+            <input type="text" name="txtEmail" id="txtEmail" min="10" max="30" placeholder="Digite seu email" required>
             <br>
             <label for="senha">Senha:</label>
-            <input type="password" name="pw" id="pw" min="8" max="30" required>
+            <input type="password" name="pw" id="pw" placeholder="Digite sua senha" min="8" max="30" required>
             <br>
-            <input type="submit" id="enviar">
+            <input type="submit" id="enviar" value="enviar">
         </form>
     </div>
 </body>
